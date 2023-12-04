@@ -450,12 +450,9 @@ function PlasmicHomepage__RenderFunc(props) {
                   displayMinWidth={"0"}
                   displayWidth={"100%"}
                   loading={"lazy"}
-                  src={{
-                    src: "/plasmic/professional_services/images/girls18285391920Jpg.jpg",
-                    fullWidth: 1920,
-                    fullHeight: 1280,
-                    aspectRatio: undefined
-                  }}
+                  src={
+                    "https://res.cloudinary.com/dklongley/image/upload/v1654782716/Screenshot_from_2022-06-09_14-50-39.png"
+                  }
                 />
               </div>
               <div className={classNames(projectcss.all, sty.column__gEusi)}>
@@ -600,12 +597,9 @@ function PlasmicHomepage__RenderFunc(props) {
                   displayMinWidth={"0"}
                   displayWidth={"100%"}
                   loading={"lazy"}
-                  src={{
-                    src: "/plasmic/professional_services/images/people31046351920Jpg.jpg",
-                    fullWidth: 1920,
-                    fullHeight: 1281,
-                    aspectRatio: undefined
-                  }}
+                  src={
+                    "https://res.cloudinary.com/dklongley/image/upload/v1662987114/3df362d993cda846924440881a3ed1c7.jpg"
+                  }
                 />
               </div>
             </p.Stack>
