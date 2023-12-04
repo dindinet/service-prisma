@@ -13,6 +13,8 @@
   --plasmic-token-container-mixin: var(--token-6gvRY8bqZCfX);
   --token-5imxU4b0cjty: 0px;
   --plasmic-token-pading-container: var(--token-5imxU4b0cjty);
+  --token-8v2PL-0oR313: #ffffff;
+  --plasmic-token-unnamed-style-token-2: var(--token-8v2PL-0oR313);
 }
 
 .plasmic_tokens {

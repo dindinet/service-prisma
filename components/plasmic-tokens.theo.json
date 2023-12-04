@@ -1,6 +1,16 @@
 {
   "props": [
     {
+      "name": "Unnamed Style Token 2",
+      "type": "color",
+      "value": "#ffffff",
+      "category": "color",
+      "meta": {
+        "projectId": "tTqxxSNNPLamhhbvK9V5UT",
+        "id": "8v2PL-0oR313"
+      }
+    },
+    {
       "name": "UnnamedStyleToken",
       "type": "color",
       "value": "#D8EDEA",

@@ -183,3 +183,7 @@
     margin: 0px;
   }
 }
+.blog {
+  position: relative;
+  color: var(--token-4Ba6uvSh0aBI);
+}

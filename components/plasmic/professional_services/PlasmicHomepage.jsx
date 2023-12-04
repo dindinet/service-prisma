@@ -132,7 +132,9 @@ function PlasmicHomepage__RenderFunc(props) {
                         sty.h1
                       )}
                     >
-                      {"Choose us for marketing photography"}
+                      {
+                        "Grow your market share - get more clients - increase revenue"
+                      }
                     </h1>
                     <div
                       className={classNames(

@@ -163,6 +163,21 @@ function PlasmicHeader__RenderFunc(props) {
               >
                 {"Contact us"}
               </p.PlasmicLink>
+              <p.PlasmicLink
+                data-plasmic-name={"blog"}
+                data-plasmic-override={overrides.blog}
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.blog
+                )}
+                component={Link}
+                href={"/blog/"}
+                platform={"nextjs"}
+              >
+                {"Blog"}
+              </p.PlasmicLink>
             </div>
           </div>
         </div>
@@ -172,12 +187,22 @@ function PlasmicHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "container", "row", "headerLeft", "img", "headerRight"],
-  container: ["container", "row", "headerLeft", "img", "headerRight"],
-  row: ["row", "headerLeft", "img", "headerRight"],
+  root: [
+    "root",
+    "container",
+    "row",
+    "headerLeft",
+    "img",
+    "headerRight",
+    "blog"
+  ],
+
+  container: ["container", "row", "headerLeft", "img", "headerRight", "blog"],
+  row: ["row", "headerLeft", "img", "headerRight", "blog"],
   headerLeft: ["headerLeft", "img"],
   img: ["img"],
-  headerRight: ["headerRight"]
+  headerRight: ["headerRight", "blog"],
+  blog: ["blog"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -217,6 +242,7 @@ export const PlasmicHeader = Object.assign(
     headerLeft: makeNodeComponent("headerLeft"),
     img: makeNodeComponent("img"),
     headerRight: makeNodeComponent("headerRight"),
+    blog: makeNodeComponent("blog"),
     // Metadata about props expected for PlasmicHeader
     internalVariantProps: PlasmicHeader__VariantProps,
     internalArgProps: PlasmicHeader__ArgProps
