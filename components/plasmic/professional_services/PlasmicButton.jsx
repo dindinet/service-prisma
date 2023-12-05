@@ -22,6 +22,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_professional_services.module.css"; // plasmic-import: tTqxxSNNPLamhhbvK9V5UT/projectcss
 import sty from "./PlasmicButton.module.css"; // plasmic-import: eaK0I-WEquua/css
 import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: rb2l_odzu479/icon
@@ -137,6 +138,7 @@ function PlasmicButton__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root,
         {
           [sty.root___focusVisibleWithin]: triggers.focusVisibleWithin_root,

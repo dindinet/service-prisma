@@ -20,6 +20,7 @@ import {
 } from "@plasmicapp/react-web";
 import Button from "../../Button"; // plasmic-import: eaK0I-WEquua/component
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_professional_services.module.css"; // plasmic-import: tTqxxSNNPLamhhbvK9V5UT/projectcss
 import sty from "./PlasmicCaseStudiesWraper.module.css"; // plasmic-import: Ve0ERJ_4OnFN/css
 
@@ -63,6 +64,7 @@ function PlasmicCaseStudiesWraper__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root
       )}
       component={Link}

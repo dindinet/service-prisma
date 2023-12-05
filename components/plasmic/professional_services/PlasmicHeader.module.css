@@ -83,10 +83,14 @@
 .img {
   position: relative;
   object-fit: none;
-  max-width: 199px;
+  max-width: 449px;
   align-self: flex-start;
   max-height: 74px;
-  height: 67px;
+  height: 100px;
+  margin-right: 7px;
+  width: 100%;
+  margin-bottom: 7px;
+  min-width: 0;
   flex-shrink: 0;
 }
 .img > picture > img {
@@ -186,4 +190,5 @@
 .blog {
   position: relative;
   color: var(--token-4Ba6uvSh0aBI);
+  padding: 8px 10px;
 }

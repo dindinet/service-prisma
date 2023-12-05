@@ -19,6 +19,7 @@ import {
   deriveRenderOpts
 } from "@plasmicapp/react-web";
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_professional_services.module.css"; // plasmic-import: tTqxxSNNPLamhhbvK9V5UT/projectcss
 import sty from "./PlasmicHeader.module.css"; // plasmic-import: 8XH6WBEcDkWr/css
 
@@ -61,6 +62,7 @@ function PlasmicHeader__RenderFunc(props) {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root
       )}
     >
@@ -92,12 +94,12 @@ function PlasmicHeader__RenderFunc(props) {
                 data-plasmic-override={overrides.img}
                 alt={""}
                 className={classNames(sty.img)}
-                displayHeight={"67px"}
+                displayHeight={"100px"}
                 displayMaxHeight={"74px"}
-                displayMaxWidth={"199px"}
+                displayMaxWidth={"449px"}
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
-                displayWidth={"auto"}
+                displayWidth={"100%"}
                 loading={"lazy"}
                 src={
                   "https://res.cloudinary.com/dklongley/image/upload/v1559571362/logo-Growth.svg"

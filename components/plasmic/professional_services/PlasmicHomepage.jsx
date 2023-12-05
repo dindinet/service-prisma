@@ -27,8 +27,11 @@ import CtaBottom from "../../CtaBottom"; // plasmic-import: Aj33d4hO6_qo/compone
 import Footer from "../../Footer"; // plasmic-import: c7_nsHlFJRh2/component
 import { useScreenVariants as useScreenVariantshXfVib0KeY9U } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: hXFVib0keY9u/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_professional_services.module.css"; // plasmic-import: tTqxxSNNPLamhhbvK9V5UT/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: PalHc3wV2s29/css
+import ChecksvgIcon from "./icons/PlasmicIcon__Checksvg"; // plasmic-import: rb2l_odzu479/icon
+import Icon4Icon from "./icons/PlasmicIcon__Icon4"; // plasmic-import: 1PfW3lwy_h2-/icon
 import Icon8Icon from "./icons/PlasmicIcon__Icon8"; // plasmic-import: qOXpUFNAULBU/icon
 import Icon13Icon from "./icons/PlasmicIcon__Icon13"; // plasmic-import: BrWW4NsZns9k/icon
 import Icon10Icon from "./icons/PlasmicIcon__Icon10"; // plasmic-import: V-JiRU5uXDCg/icon
@@ -88,6 +91,7 @@ function PlasmicHomepage__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
+            plasmic_antd_5_hostless_css.plasmic_tokens,
             sty.root
           )}
         >
@@ -97,85 +101,83 @@ function PlasmicHomepage__RenderFunc(props) {
             className={classNames("__wab_instance", sty.header)}
           />
 
-          <div
-            data-plasmic-name={"hero"}
-            data-plasmic-override={overrides.hero}
-            className={classNames(projectcss.all, sty.hero)}
-          >
-            <div
-              data-plasmic-name={"container7"}
-              data-plasmic-override={overrides.container7}
-              className={classNames(projectcss.all, sty.container7)}
+          <div className={classNames(projectcss.all, sty.freeBox__mI4K)}>
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.columns__zVjzs)}
             >
-              <div
-                data-plasmic-name={"row3"}
-                data-plasmic-override={overrides.row3}
-                className={classNames(projectcss.all, sty.row3)}
-              >
-                <div
-                  data-plasmic-name={"info"}
-                  data-plasmic-override={overrides.info}
-                  className={classNames(projectcss.all, sty.info)}
+              <div className={classNames(projectcss.all, sty.column__smfW)}>
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__cluoY)}
                 >
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__nmjUc)}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hcRfn
+                    )}
                   >
-                    <h1
-                      data-plasmic-name={"h1"}
-                      data-plasmic-override={overrides.h1}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h1,
-                        projectcss.__wab_text,
-                        sty.h1
-                      )}
-                    >
-                      {
-                        "Grow your market share - get more clients - increase revenue"
-                      }
-                    </h1>
+                    {"Hero"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___0Ivvj
+                    )}
+                  >
+                    {
+                      "Orci dui condimentum rutrum laoreet hac purus porta sem sem a vivamus a posuere vel molestie."
+                    }
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__hPy21
+                    )}
+                  >
+                    {
+                      "Orci dui condimentum rutrum laoreet hac purus porta sem sem a vivamus a posuere vel molestie."
+                    }
+                  </div>
+                  <Button
+                    className={classNames("__wab_instance", sty.button__x5UzI)}
+                    endIcon={
+                      <Icon4Icon
+                        className={classNames(projectcss.all, sty.svg___1T0Oe)}
+                        role={"img"}
+                      />
+                    }
+                    startIcon={
+                      <ChecksvgIcon
+                        className={classNames(projectcss.all, sty.svg__xr2Q)}
+                        role={"img"}
+                      />
+                    }
+                    submitsForm={true}
+                  >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__gq8A
+                        sty.text__h2UlI
                       )}
                     >
-                      {
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
-                      }
+                      {"Start now ->"}
                     </div>
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__cgl4R
-                      )}
-                      color={"blackCoffee"}
-                      submitsForm={true}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___3RXvv
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "Get In touch"
-                          : "Get In touch"}
-                      </div>
-                    </Button>
-                  </p.Stack>
-                </div>
+                  </Button>
+                </p.Stack>
+              </div>
+              <div className={classNames(projectcss.all, sty.column__whet2)}>
                 <div
-                  data-plasmic-name={"fig"}
-                  data-plasmic-override={overrides.fig}
-                  className={classNames(projectcss.all, sty.fig)}
+                  className={classNames(projectcss.all, sty.freeBox__vK9Nz)}
                 />
               </div>
-            </div>
+            </p.Stack>
           </div>
           <section className={classNames(projectcss.all, sty.section___3CueM)}>
             <div className={classNames(projectcss.all, sty.freeBox__mJDwK)}>
@@ -880,12 +882,6 @@ const PlasmicDescendants = {
   root: [
     "root",
     "header",
-    "hero",
-    "container7",
-    "row3",
-    "info",
-    "h1",
-    "fig",
     "companiesSection",
     "container2",
     "ctaBottom",
@@ -893,12 +889,6 @@ const PlasmicDescendants = {
   ],
 
   header: ["header"],
-  hero: ["hero", "container7", "row3", "info", "h1", "fig"],
-  container7: ["container7", "row3", "info", "h1", "fig"],
-  row3: ["row3", "info", "h1", "fig"],
-  info: ["info", "h1"],
-  h1: ["h1"],
-  fig: ["fig"],
   companiesSection: ["companiesSection", "container2"],
   container2: ["container2"],
   ctaBottom: ["ctaBottom"],
@@ -938,12 +928,6 @@ export const PlasmicHomepage = Object.assign(
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
-    hero: makeNodeComponent("hero"),
-    container7: makeNodeComponent("container7"),
-    row3: makeNodeComponent("row3"),
-    info: makeNodeComponent("info"),
-    h1: makeNodeComponent("h1"),
-    fig: makeNodeComponent("fig"),
     companiesSection: makeNodeComponent("companiesSection"),
     container2: makeNodeComponent("container2"),
     ctaBottom: makeNodeComponent("ctaBottom"),

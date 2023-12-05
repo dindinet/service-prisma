@@ -25,6 +25,7 @@ import CtaBottom from "../../CtaBottom"; // plasmic-import: Aj33d4hO6_qo/compone
 import Footer from "../../Footer"; // plasmic-import: c7_nsHlFJRh2/component
 import { useScreenVariants as useScreenVariantshXfVib0KeY9U } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: hXFVib0keY9u/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_professional_services.module.css"; // plasmic-import: tTqxxSNNPLamhhbvK9V5UT/projectcss
 import sty from "./PlasmicAboutUs.module.css"; // plasmic-import: uefg53028Z13/css
 
@@ -82,6 +83,7 @@ function PlasmicAboutUs__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
+            plasmic_antd_5_hostless_css.plasmic_tokens,
             sty.root
           )}
         >
